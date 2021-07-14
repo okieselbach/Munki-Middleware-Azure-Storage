@@ -28,7 +28,7 @@ sudo defaults write /Library/Preferences/ManagedInstalls StorageAccountKey 'XXX'
 <key>StorageAccountKey</key>
 <string>XXX</string>
 ```
-Check my [macOS GitHub](https://github.com/okieselbach/Intune/macOS) repo for a sample MDM .mobileconfig file.
+Check my [macOS GitHub](https://github.com/okieselbach/Intune/tree/master/macOS) repo for a sample MDM .mobileconfig file.
 
 ### Location
 ```
