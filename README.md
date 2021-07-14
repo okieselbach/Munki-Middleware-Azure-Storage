@@ -52,3 +52,8 @@ If required set LoggingLevel higher than 1 e.g. 2 or 3
 ```
 sudo defaults write /Library/Preferences/ManagedInstalls LoggingLevel -int 3
 ```
+
+### Further reading
+If you are interested in a blog article detailing a bit more of the middleware in action with Microsoft Intune then have a look here:
+
+https://oliverkieselbach.com/2021/07/14/comprehensive-guide-to-managing-macos-with-intune/
