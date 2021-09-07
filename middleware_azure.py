@@ -74,6 +74,6 @@ AZURE_ENDPOINT = pref('AzureEndpoint') or 'blob.core.windows.net'
 def process_request_options(options):
     # This is the fuction that munki calls.
     if AZURE_ENDPOINT in options['url']:
-        options['url'] = options['url'] + '?' + SHARED_ACCESS_SIGNATURE
+        options['url'] = options['url'] + SHARED_ACCESS_SIGNATURE
 
     return options
