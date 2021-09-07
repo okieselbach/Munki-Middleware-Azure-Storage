@@ -23,7 +23,7 @@ Configuration via MDM profile (plist) is possible:
 <string>XXX</string>
 
 Use Powershell output from below to convert the Shared Access Signature (SAS) to be correctly escaped for usage in xml MDM profile above:
-[Security.SecurityElement]::Escape("sp=r&st=2021-09-07T07:25:56Z&se=2025-09-07T15:25:56Z&spr=https&sv=2020-08-04&sr=c&sig=ThIsIsEnExAmPlEThIsIsEnExAmPlEThIsIsEnExAmPlE")
+[Security.SecurityElement]::Escape("?sp=r&st=2021-09-07T07:25:56Z&se=2025-09-07T15:25:56Z&spr=https&sv=2020-08-04&sr=c&sig=ThIsIsEnExAmPlEThIsIsEnExAmPlEThIsIsEnExAmPlE")
 
 Check the macOS GitHub https://github.com/okieselbach/Intune/tree/master/macOS repo for a sample MDM .mobileconfig file.
 
