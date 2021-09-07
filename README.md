@@ -25,7 +25,7 @@ sudo defaults write /Library/Preferences/ManagedInstalls StorageAccountKey 'XXX'
 ```
 <key>SoftwareRepoURL</key>
 <string>http://yourstorageaccount.blob.core.windows.net/munki</string>
-<key>StorageAccountKey</key>
+<key>SharedAccessSignature</key>
 <string>XXX</string>
 ```
 Check my [macOS GitHub](https://github.com/okieselbach/Intune/tree/master/macOS) repo for a sample MDM .mobileconfig file.
