@@ -61,13 +61,13 @@ def pref(pref_name):
     return pref_value
 
 
-STORAGE_ACCOUNT_KEY = pref('SharedAccessSignature')
+SHARED_ACCESS_SIGNATURE = pref('SharedAccessSignature')
 AZURE_ENDPOINT = pref('AzureEndpoint') or 'blob.core.windows.net'
 
 
 def process_request_options(options):
     # This is the fuction that munki calls.
     if AZURE_ENDPOINT in options['url']:
-        options['url'] = options['url'] + '?' + STORAGE_ACCOUNT_KEY
+        options['url'] = options['url'] + '?' + SHARED_ACCESS_SIGNATURE
 
     return options
