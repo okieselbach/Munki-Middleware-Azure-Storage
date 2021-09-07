@@ -6,7 +6,9 @@ The Azure Blob Storage Middleware allows munki clients to connect securely, and 
 This module is meant to plug into munki as a middleware.
 https://github.com/munki/munki/wiki
 
-The script will generate the required http headers to interact with an protected Azure blob storage account.
+The latest version of the script will use the Shared Access Signature from the blob storage account.
+
+Previous version with storage key generates the required http headers to interact with an protected Azure blob storage account.
 Inspired by S3-Auth (https://github.com/waderobson/s3-auth)
 
 MS reference docs for Storage REST API Auth and interaction
