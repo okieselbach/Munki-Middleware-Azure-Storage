@@ -19,7 +19,7 @@ Defaults must be in place (replace with your account and example assumes contain
 
 ```
 sudo defaults write /Library/Preferences/ManagedInstalls SoftwareRepoURL 'http://yourstorageaccount.blob.core.windows.net/munki'
-sudo defaults write /Library/Preferences/ManagedInstalls StorageAccountKey 'XXX'
+sudo defaults write /Library/Preferences/ManagedInstalls SharedAccessSignature 'XXX'
 ```
 
 ### Configuration via MDM
