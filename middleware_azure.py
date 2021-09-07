@@ -48,7 +48,7 @@ https://oliverkieselbach.com/2021/07/14/comprehensive-guide-to-managing-macos-wi
 Release notes:
 Version 1.0: 2021-09-07 - Original published version.
 
-Credits and many thanks to MaxXyzzy for triggering me to evaluate the SAS version once again.
+Credits and many thanks to @MaxXyzzy for triggering me to evaluate the SAS version once again.
 
 The script is provided "AS IS" with no warranties.
 """
